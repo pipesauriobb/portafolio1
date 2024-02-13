@@ -1,0 +1,112 @@
+/*  para goolge fonts v2 */
+ @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Open+Sans:wght@300;400;700&display=swap');
+
+/* para google fonts v1 tiene efectos*/
+@import url('https://fonts.googleapis.com/css?family=Tangerine&effect=fire-animation&display=swap');
+
+/* para usar  la fuente de Google Fonts en el proyecto */
+.fuego{
+    font-family: 'Targerine' , serif;
+    color: #ff8500;
+}
+
+
+
+.kalam{
+    font-family:  'Kalam' !important;
+    color: #ced4da;
+}
+
+
+
+
+body{
+    color: tomato;
+    /* 
+    background-color: lightslategrey;
+    background-image: url(/FrontEnd_web_developer/ejercisios/recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+     */
+
+    /* tambien puedo indicar el background en una sola linea en ves de lo 
+    de arriba */
+    background: lightslategrey url(/FrontEnd_web_developer/ejercisios/recursos/fondo.png) repeat right top ;
+    background-attachment: fixed;
+    
+}
+
+/*  fuente es css */
+
+h1{color:  white;
+text-align: center;
+text-transform: uppercase;
+text-shadow: 2px 2px 2px #ced4da;
+}
+/* con esto le doy un estilo base a cada cajita */
+.caja{ 
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+/* doy doble identificador para darle un estilo particular a cada caja */
+.caja.serif{
+    background: #5a189a;
+}
+
+/* fuente de times (simplificacion de timer new roman)s */
+.fuente_times{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic; /* indico el estilo italico o otros */
+    font-weight: bolder; /* para indicar el ancho de las letras */
+    font-variant: small-caps; /* Indico Propiedades Como Mayuscula En La Primera Letra */
+    font-size: 2.3vw; /*  la medida se hace relativa al viewport del dispositivo*/
+                       /* por ejemplo si estamos en un movil vw=viewport width */
+}
+
+.fuente_georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+/* -----------------para fuentes sans-serif------------------- */
+.caja.sans-serif{
+    background-color: #00b4d8;
+}
+
+.fuente_arial{   
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.fuente_verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* -----------------para fuentes monoespace como de maquina de escribir------------------- */
+.caja.monospace{
+    background-color: #f15bb5;
+}
+
+.fuente_courier{   
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/*  ---------------para fuentes cursivas ------------------------------ */
+
+.caja.cursive{
+    background-color: #ff8500;
+}
+
+.fuente_lucida{
+    font-family: 'Lucida Handwriting', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

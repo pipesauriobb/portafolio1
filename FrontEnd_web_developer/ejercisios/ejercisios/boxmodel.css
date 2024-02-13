@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+div{
+    padding: 10px 40px 10px;
+    border: 15px solid orange;
+    margin-left: 100px;/* caracteristica del elemento padre */
+    background-color: antiquewhite;
+    max-width : 300px;
+    box-sizing: border-box;
+
+
+
+    /*     width: 300px;
+    outline: 10px solid slateblue;
+    outline-offset: 20px; */
+}
+
+p.interno{
+    margin-left:inherit;/* cn inherid copeo las caracteriticas del elemento padre */
+}

@@ -1,0 +1,10 @@
+:root {
+  --color1: #F88988;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--color1);
+  background-image: url(../imagenes/fondoTop.svg);
+  background-color: aquamarine;
+}/*# sourceMappingURL=style.css.map */

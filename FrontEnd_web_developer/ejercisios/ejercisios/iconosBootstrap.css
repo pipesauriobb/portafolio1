@@ -1,0 +1,20 @@
+/* pego el link de bootsrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+h1{
+    text-align: center;
+    color: crimson ;
+
+}
+
+div{
+    margin: auto;
+    padding: 15px;
+    max-width: 400px;
+}
+
+.alarma_roja{
+    color: red;
+    font-size: 3.5em;
+}

@@ -1,0 +1,59 @@
+/* modifico el elemento de HTML */
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    /* agrego degradado lineal ...es decir cambio entre tonalidades de colores */
+    background:linear-gradient(#7209b7, #3f37) ;
+}
+
+/*-------------------------------- clase contenedor ------------------------------------------------------------- */
+.contenedor{
+    margin: 50px auto;
+    width: 40%;
+    padding: 30px;
+    background:  rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+
+/*-------------------------------- clase contenedor ------------------------------------------------------------- */
+
+/* h2 titulo de "LOGIN" */
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #3f39;
+    text-align: center;
+}
+
+/* elementos input text ------------------------------------------------------ */
+.contenedor .elemento label{
+    color: aliceblue;
+}
+
+/* elementos tipo input ------------------------------------------------------- */
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: aliceblue;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+/* estilos para el boton ------------------------------------------------------- */
+
+.contenedor .elemento input[type="submit"]{
+    background-color: #7201b1;
+    border: none;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+}

@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: sans-serif;
+    background: black;
+
+}
+
+.container {
+    background-color: #202020;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.uno {
+    background-color: #F13929;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+.dos {
+    background-color: #7250FF;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.tres {
+    background-color: #01D0FB;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}

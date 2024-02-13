@@ -1,0 +1,62 @@
+/* el selector universal es el " * " */
+
+*{
+    background-color: gold;
+}
+
+#titulo {
+    color: crimson;
+    text-align: center;
+}
+
+/*  de esta manera puedo aplicar estilo a diversas etiquetas al mismo tiempo
+h1, h2, p{
+    color: aquamarine;
+    text-align: end;
+} */
+.solido{
+    border: solid;
+    border-radius: 20%;
+    border-color: yellowgreen rebeccapurple;
+    border-width: 30px 20px 10px 15px;
+}
+
+p.punteado{
+    border-style: dotted;
+}
+
+.discontinuo{
+    border-style: dashed;
+}   
+
+.doble{
+    border: double;
+}
+
+.surco{
+    border: 10px groove;
+}
+
+.cresta{
+    border: 10px  ridge;
+}
+
+.recuadro{
+    border: inset;
+}
+
+.outset{
+    border: outset;
+}
+
+.sinborde{
+    border: none;
+}
+
+.bordeoculto{
+    box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+}
+
+.mixto{
+    border-style: dashed  solid double;
+}

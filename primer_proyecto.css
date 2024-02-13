@@ -1,0 +1,35 @@
+h1{
+    color: darkorange;
+}
+h2{
+    color: tomato;
+}
+p{
+    color: lightslategrey;
+}
+
+.autowifi{
+    color: blueviolet;
+}
+
+.estilos_papi{
+    background-color: springgreen;
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 200px;
+    /* o... puedese escribir margin:arriba abajo izquierda derecha */
+    padding: 40px;
+}
+.hijo{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    margin: 120px;
+}
+body{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serifl;
+}

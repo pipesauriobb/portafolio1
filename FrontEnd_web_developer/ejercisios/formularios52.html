@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- como hacer un formulario -->
+    <h1>Formularios en HTML</h1>
+
+    <form>
+        <!-- para agrupar la informacion del formulario uso la etiqueta de  "fieldset" -->
+        <fieldset>
+            <!-- para indicar de ques es el formulario uso la etiqueta de "legend" -->
+            <legend>Ingresa tus datos:</legend>
+
+                    <!-- espacio para el nombre -->
+                    <label for="nombre">Nombre: </label><br />
+                    <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Escribe tu Nombre"
+                    /><br /><br />
+                    
+            <label for="correo">Escribe tu Correo Electronico: </label><br />
+            <input
+            type="email"
+            id="correo"
+            name="correo"
+            placeholder="Correo electronico"
+            /><br /><br />
+            
+            <!--------------------------------- radiobuttoms ----------------------------------------------------- -->
+            
+            <label for="">Genero</label><br />
+            <!-- genero primero femenino luego masculino-->
+            <input type="radio" id="Femenino" name="lomismo" value="Femenino" />
+            <label for="Femenino">Femenino</label><br />
+            
+            <input type="radio" id="Masculino" name="lomismo" value="Masculino" />
+            <label for="Masculino">Masculino</label><br /><br />
+            
+            <!-- para poder seleccionar solo una opcion de ambos generos debo de poner el mismo
+                "name = "pongo lo mismo" "en ambas selecciones de tipo radio -->
+
+            <!--------------------------------- radiobuttoms ----------------------------------------------------- -->
+            
+            <!--------------------------------- checkboxes ----------------------------------------------------- -->
+            <!-- aca puedo elejir diferentes opciones a diferencia del radionuttoms pj genero -->
+            <label for="">Genero de Musica</label><br />
+            <input type="checkbox" id="clasica" name="musica" value="clasica" />
+            <label for="clasica">Clasica</label><br />
+            
+            <input type="checkbox" id="rock" name="musica" value="rock" />
+            <label for="rock">Rock</label><br />
+            
+            <input type="checkbox" id="merenge" name="musica" value="merenge" />
+            <label for="merenge">Merenge</label><br />
+            
+            <input type="checkbox" id="pop" name="musica" value="pop" />
+            <label for="pop">Pop</label><br /><br />
+            <!--------------------------------- checkboxes ----------------------------------------------------- -->
+
+            <!--------------------------------- select ----------------------------------------------------- -->
+            <label for="autos">Marca de auto favorita</label><br />
+            <select name="autos" id="autos">
+                <option value="volvo">volvo</option>
+                <option value="audi">Audi</option>
+                <option value="bmw">BMW</option>
+                </select>
+                <br /><br />
+                <!--------------------------------- select ----------------------------------------------------- -->
+                
+                <!--------------------------------- Comentario ----------------------------------------------------- -->
+                <label for="comentario">Comentario (Opcional)</label><br />
+                <textarea name="comentario" id="comentario" cols="30" rows="10">
+                    Este es mi comentario
+                    </textarea
+                    ><br /><br />
+                    <!--------------------------------- Comentario ----------------------------------------------------- -->
+                    
+                    <!-- espacio para poner un boton y enviar la informacion -->
+                    <input type="submit" value="Enviar" />
+            </fieldset>
+        </form>
+    </body>
+    </html>
