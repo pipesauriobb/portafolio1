@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-image: linear-gradient(to left, #feada6 0%, #f5efef 100%);}
+.header {
+    text-align: center;
+    padding: 2%;
+    background-color: #f2f2f2;
+}
+
+.footer {
+    text-align: center;
+    padding: 2%;
+    background-color: #f2f2f2;
+}
+
+
+/* Estilos para imágenes */
+.products img {
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes al 100% del contenedor */
+    height: auto; /* Permite que la altura de las imágenes se ajuste automáticamente para mantener la proporción */
+}
+
+/* Ajuste de tamaño para dispositivos de escritorio */
+@media screen and (min-width: 769px) {
+    .products img {
+        max-width: 300px; /* Define un ancho máximo para las imágenes en dispositivos de escritorio */
+    }
+}
+
+
+
+/* estilo para los botones de carrucel ---------------------------------------------------- */
+/* Contenido previo de tu archivo styles.css */
+
+/* Estilos para los botones del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 2%; /* Ancho de los botones */
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo */
+  border-radius: 10px; /* Forma redondeada */
+  font-size: 2em; /* Tamaño de la fuente */
+  transition: background-color 0.3s ease; /* Transición para el cambio de color */
+}
+
+/* Estilos para los botones del carrusel cuando se posiciona el cursor sobre ellos */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Cambio de color al pasar el cursor */
+}
+
+/* Estilos para los iconos de los botones del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); /* Invertir el color de los iconos */
+}
+
+
+
+/* estilo de hover para las cards ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ */
+.card-hover:hover {
+    transform: scale(1.05); /* Escala la tarjeta al 105% del tamaño original */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+  }
+
+.card{
+    margin: auto;
+    width: 90%;
+    transition: opacity 0.5s ease;
+}
+
+.fade-in {
+    opacity: 0; /* Inicialmente, las tarjetas son transparentes */
+}
+
+.fade-in.active {
+    opacity: 1; /* Cuando se activa la clase "active", las tarjetas se vuelven visibles */
+}
+
+/*  fin del estilo para las cards ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ */
