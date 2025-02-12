@@ -59,6 +59,7 @@ body {
 
 
 
+
 /* estilo de hover para las cards ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ */
 .card-hover:hover {
     transform: scale(1.05); /* Escala la tarjeta al 105% del tamaño original */
@@ -80,3 +81,12 @@ body {
 }
 
 /*  fin del estilo para las cards ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ */
+
+.card-hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
